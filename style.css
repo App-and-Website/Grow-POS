@@ -296,7 +296,6 @@ footer  a:hover{
 }
 .demo_div_mobile{
   display: block;
-  margin-top: 25px;
 }
 .hero_contentp{
   margin-top: -30px;
@@ -334,16 +333,19 @@ footer  a:hover{
       margin-bottom: 0;
     }
     .tab_sec_home .advanced-tab {
-      margin-top: -20px;
+      margin-top: -25px;
     }
     .img_wrapper img {
-      height: 280px;
+      height: 220px;
     }
     .slider-container {
       position: relative;
       width: 100%;
-      height: 280px;
+      height: 220px;
       overflow: hidden;
+    }
+    .hero_title{
+      line-height: 36px!important;
     }
 }
 
