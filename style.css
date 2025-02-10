@@ -193,10 +193,10 @@ background: #f8f4f1!important;
 }
 
 .images_shocase_sec .img_itm{
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .images_shocase_sec .img_itm img{
-  max-height: 200px;
+  max-height: 180px;
   margin-right: 20px;
   border: 6px solid #fff;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -274,6 +274,9 @@ footer  a:hover{
 }
 }
 
+.demo_div_mobile{
+  display: none;
+}
 
 @media only screen and (max-width: 991px) {
   .rpt-150, .rpy-150 {
@@ -288,6 +291,24 @@ footer  a:hover{
     padding-right: 20px;
 }
 .benefits_row{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.demo_div_mobile{
+  display: block;
+  margin-top: 25px;
+}
+.hero_contentp{
+  margin-top: -30px;
+  font-size: 14px;
+}
+.banner_image{
+  margin-top: -40px;
+}
+.demo_div_desktop{
+  display: none;
+}
+.effortless_sec{
   display: flex;
   flex-direction: column-reverse;
 }
