@@ -679,7 +679,7 @@ input[type=checkbox], input[type=radio] {
 
 /* For Home Three */
 .home-three {
-  --primary-color: #F85C3A;
+  --primary-color: #eb0029;
   --navyblue-color: #324438;
   --lighter-color: #F4F1E7; }
   .home-three .subtitle-one {
@@ -10573,6 +10573,9 @@ a.theme-btn {
     background-image: -o-linear-gradient(bottom, #0095FF 50%, var(--heading-color) 50%);
     background-image: linear-gradient(to top, #0095FF 50%, var(--heading-color) 50%); }
 
+    .widget-cta .theme-btn {
+         background: #ff9b24;
+    }
 .widget-products li {
   display: -webkit-box;
   display: -ms-flexbox;
