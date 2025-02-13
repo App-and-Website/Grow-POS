@@ -302,12 +302,90 @@ footer  a:hover{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.7); /* Adjust transparency (0.5 = 50% opacity) */
+  background: rgba(255, 255, 255, 0.85); /* Adjust transparency (0.5 = 50% opacity) */
 }
 
 .sec_pds{
   padding: 50px 0;
   border-bottom: 1px solid #ccc;
+}
+.sec_pds:last-child{
+  border-bottom: 0px solid #ccc;
+}
+
+.video_sectiontp1 .video-section {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.video_sectiontp1 .section-heading {
+  margin-bottom: 30px;
+}
+
+.video_sectiontp1 .section-heading h2 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+.video_sectiontp1 .section-heading p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.video_sectiontp1 .video-wrapper {
+  max-width: 1000px;
+  max-height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.video_sectiontp1 iframe {
+  width: 100%;
+  height: 560px;
+  display: block;
+  background: #000;
+}
+
+/* Custom controls styling */
+.video_sectiontp1 video::-webkit-media-controls-panel {
+  background: rgba(0,0,0,0.7);
+}
+
+.video_sectiontp1 video::-webkit-media-controls-play-button,
+.video_sectiontp1 video::-webkit-media-controls-volume-slider,
+.video_sectiontp1 video::-webkit-media-controls-timeline {
+  filter: invert(1);
+}
+
+@media (max-width: 768px) {
+  .video_sectiontp1 .section-heading h2 {
+      font-size: 2rem;
+  }
+  
+  .video_sectiontp1 .section-heading p {
+      font-size: 1rem;
+  }
+  
+  .video_sectiontp1 .video-wrapper {
+      border-radius: 8px;
+  }
+}
+
+.main-footer.footer-ten .footer-top-newsletter {
+  border-radius: 15px;
+  background: -webkit-linear-gradient(354.03deg, #ff9b24 0%, #eb0029 100%);
+  background: -o-linear-gradient(354.03deg, #ff9b24 0%, #eb0029 100%);
+  background: linear-gradient(95.97deg, #ff9b24 0%, #eb0029 100%);
+}
+
+.boxshadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -360,6 +438,9 @@ footer  a:hover{
   display: flex;
   flex-direction: column-reverse;
 }
+.video_sectiontp1 .video-section {
+ padding-top: 0;
+}
 }
 @media screen and (max-width: 576px) {
     .img_wrapper h3{
@@ -402,7 +483,17 @@ footer  a:hover{
     .form_cta_home .hero-form{
       margin-top: 25px;
     }
+    .video_sectiontp1 iframe {
+      height: 300px;
+    }
 }
 
-
+@media screen and (max-width: 480px) {
+  .video_sectiontp1 iframe {
+    height: 250px;
+  }
+  .contact_btn_cta{
+    margin-bottom: 20px;
+  }
+}
 
