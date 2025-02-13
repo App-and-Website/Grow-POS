@@ -305,7 +305,16 @@ footer  a:hover{
   background: rgba(255, 255, 255, 0.7); /* Adjust transparency (0.5 = 50% opacity) */
 }
 
+.sec_pds{
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc;
+}
 
+@media only screen and (max-width: 1200px) {
+  .hero_title_sm {
+    font-size: 42px!important;
+  }
+}
 @media only screen and (max-width: 991px) {
   .rpt-150, .rpy-150 {
       padding-top: 120px;
@@ -317,6 +326,18 @@ footer  a:hover{
   .footer-top-cta-wrap {
     padding-left: 20px;
     padding-right: 20px;
+}
+.sec_pds{
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.reverse_mobile{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.mobile-logo img{
+  height: 40px!important;
+  width: auto!important;
 }
 .benefits_row{
   display: flex;
@@ -350,6 +371,9 @@ footer  a:hover{
        padding: 8px 10px;
        color: #fff;
        font-size: 16px;
+    }
+    .hero_title_sm {
+      font-size: 32px!important;
     }
     .tab_sec_home .advanced-tab.style-two li {
       margin: 0 5px -1px;
