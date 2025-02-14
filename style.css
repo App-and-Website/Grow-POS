@@ -387,6 +387,18 @@ footer  a:hover{
 .boxshadow{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.cta_combo_row{
+  display: flex;
+  justify-content: space-between;
+}
+.white_btn:hover{
+  color: #000!important;
+}
+@media only screen and (min-width: 376px) {
+  .testi-slider-seven {
+      margin-right: 2px;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   .hero_title_sm {
@@ -416,6 +428,9 @@ footer  a:hover{
 .mobile-logo img{
   height: 40px!important;
   width: auto!important;
+}
+.pdbtmsm{
+  padding-bottom: 0;
 }
 .benefits_row{
   display: flex;
@@ -486,6 +501,9 @@ footer  a:hover{
     .video_sectiontp1 iframe {
       height: 300px;
     }
+    .cta-left-content {
+      padding: 50px 20px 25px;
+  }
 }
 
 @media screen and (max-width: 480px) {
